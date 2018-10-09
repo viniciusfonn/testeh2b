@@ -1,0 +1,405 @@
+li{
+    list-style: none;
+
+}
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+    color: white;
+}
+
+
+.plx{
+    position: relative;
+    background: url(../img/imagem_fundo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+.botao{
+    z-index: 1;
+    position: relative;
+}
+
+.bg-botao-menu{
+    background:#181818;
+    width: 71.5px;
+    height: 71.5px;
+}
+
+.fonte-destaque {
+    color: white;
+    font-size: 3.75em;
+    text-transform: uppercase;
+}
+
+.fonte-media{
+    color: white;
+    font-size: 1.87em;
+    text-transform: uppercase;
+}
+
+.fonte-pequena{
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.fonte-verde {
+
+    color: #7faf59;
+    text-transform: uppercase;
+    font-size: 1em;
+     
+}
+
+.tira-margem{
+    margin: 0;
+}
+
+.mensagem{
+    margin-top: 220px;
+}
+
+.ver-prog{
+    padding-bottom:95px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.principal {
+    background: #181818;
+}
+
+.carousel-item-texto{
+    position: relative;
+    top: -50px;
+    background: black;
+}
+
+.slick-prev{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+    right: -25px;
+}
+
+
+
+
+.partners{
+    background: #282828;
+}
+
+
+
+li{
+    font-size: 0.87em;
+    color:#646363 ;
+    text-transform: uppercase;
+}
+
+.linha-footer::after {
+	content: '';
+	display: block;
+	width: 27px;
+	height: 2px;
+    background: #92b13c;
+    margin-top:2px;
+    margin-bottom: 15px;
+}
+
+
+.footer-bg{
+    background: black;
+}
+
+.li-active{
+    color:#92b13c;
+    font-size: 2.25em;
+}
+
+.menu-fonte{
+    font-size: 2.25em;
+    color: white;
+}
+.menu-fonte:hover{
+    color: #92b13c;
+}
+
+
+
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    
+}
+
+
+
+
+
+.texto{
+    padding:20px;
+    font-family:Arial;
+    text-align:left;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0,0,0,.7);
+    position: relative;
+    top: -207px;
+  }
+  .ver-texto{
+    opacity:1;
+   }
+.remove {
+    opacity: 0;
+}
+.subtitulo{
+    position: relative;
+    top:-66px;
+    font-size: 2em;
+    width: 100%;
+    height: 68px;
+    background: black;
+    display: flex;
+    opacity: 1;
+}
+
+
+
+@media (max-width: 600px){
+    .site-map{
+        display: none;
+    }
+    .rodape-mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+    .marca-footer{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/* CSS DA PAGINA DE CONTATOOOOOO */
+
+
+.bg-contato{
+    background: url(../img/contato_fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+.bg-contato-main{
+    background: #222222;
+}
+
+.contato-up{
+    position: relative;
+    top: -96px;
+    
+}
+
+.fonte-caminho{
+    color: #6e6e6e;
+    font-size: 0.87em;
+    text-transform: uppercase;
+}
+
+.fonte-caminho-2{
+   
+    color: #92b13c;
+    font-size: 0.87em;
+    text-transform: uppercase;
+}
+
+.fonte-destaque-contato{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.fonte-hover{
+    text-transform: uppercase;
+    font-size: 0.87em;
+}
+.fonte-media-contato{
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+.linha::after{
+    content: '';
+	display: block;
+	width: 34px;
+	height: 3px;
+    background: #7dbc58; 
+}
+.fonte-verde{
+    color: #8ea745
+}
+.contato::after{
+    content: '';
+	display: block;
+	width: 193px;
+	height: 6px;
+    background: #92b13c; 
+    margin: 0 auto;   
+}
+
+
+.bg-transparente{
+ background-color: transparent;
+ border-color: #92b13c;
+}
+
+
+
+.bg-menu{
+    background: #181818;
+    width: 143px;
+    height: 143px;
+    padding-left: 50px;
+}
+
+@media(max-width:640px){
+    .bg-menu-mobile{
+    background: black;
+        /* padding-top: 20px; */
+    }
+    .bg-menu{
+        padding-left: 40px;
+        width: 116px;
+        height: 116px;
+    }
+  
+   
+
+}
+	.menu-nav.menu-mobile{
+		position: fixed;
+		background-color: black;
+		padding: 10px;
+		top: 50px;
+        width: 100%;
+        height: 100%;
+		right: 0px;
+		transform: translate3d(60px, 0px, 0px);
+		transition: .3s;
+		opacity: 0;
+        visibility: hidden;
+        top:0;
+	}
+
+	.menu-nav.menu-mobile.active{
+		z-index: 1;
+		opacity: 1;
+		visibility: visible;
+		transform: translate3d(0px, 0px, 0px);
+	}
+
+	.menu-nav.menu-mobile li{
+		display: block;
+	}
+
+	.menu-nav.menu-mobile li a{
+		padding: 10px;
+		width: 100%;
+        text-align: center;
+	}
+
+	.menu-burguer{
+		color: white;
+        display: block;
+		width: 36px;
+		height: 36px;
+		border-top: 4px solid;
+		position: relative;
+		cursor: pointer;
+		-webkit-backface-visibility: hidden;
+        margin: 18px 20px 0 0;
+        z-index: 2;
+	}
+
+	.menu-burguer::after, .menu-burguer::before{
+		content: '';
+		display: block;
+		height: 4px;
+		background: currentColor;
+		position: relative;
+		transition: transform .2s ease;
+		margin-top: 6px;
+	}
+
+	.menu-burguer.active{
+		border-top-color: transparent;
+	}
+
+	.menu-burguer.active::after{
+		margin-top: 0px;
+		top: 2px;
+		transform: rotate(45deg);
+	}
+
+	.menu-burguer.active::before{
+		margin-top: 0px;
+		top: 6px;
+		transform: rotate(135deg);
+    }
+
+
+
+
+   
+
+
+   
+
